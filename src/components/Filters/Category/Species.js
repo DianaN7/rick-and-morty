@@ -29,17 +29,17 @@ const Species = ({ setPageNumber, setSpecies }) => {
           <h2>
             <AccordionButton className="flex justify-between">
               <span
-                className="text-left font-bold text-navy-900 dark:text-white"
+                className="text-left font-bold  text-black"
                 flex="1"
                 textAlign="left"
               >
                 Раса
               </span>
-              <AccordionIcon className="text-left !text-navy-900 dark:!text-white" />
+              <AccordionIcon className="text-left  text-black" />
             </AccordionButton>
           </h2>
           <AccordionPanel
-            className="text-left text-medium mt-2 !text-navy-900 dark:!text-white"
+            className="text-left text-medium mt-2  text-black"
             pb={4}
           >
             {species.map((items, index) => (
